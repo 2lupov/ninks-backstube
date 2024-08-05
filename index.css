@@ -1,0 +1,213 @@
+body,td,th {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color:#000;
+	background-image:url(images/background.jpg);
+	background-repeat:no-repeat;
+	background-color: #FFF;
+	overflow:hidden;
+} 
+a:link {
+	color:#000;
+	text-decoration: none;
+	font-size:14px;
+}
+
+a:visited {
+	color:#333;
+	text-decoration: none;
+}
+a:hover {
+	color:#BC0002;
+	text-decoration: none;
+}
+a {
+	font-weight: bold;
+}
+a:active {
+	text-decoration: none;
+	color:#F90;
+}
+a.rot:link {
+	color:#000;
+	text-decoration: none;
+	font-size:14px;
+}
+
+a.rot:visited {
+	color:#333;
+	text-decoration: none;
+}
+a.rot:hover {
+	color:#BC0002;;
+	text-decoration: none;
+}
+a.rot {
+	font-weight: bold;
+}
+a.rot:active {
+	text-decoration: none;
+	color:#F90;
+}
+
+h2 {
+	font-size: 26px;
+	color:#000;
+}
+h3 {
+	font-size: 24px;
+	color:#000;
+}
+h4 {
+	font-size: 20px;
+	color: #000;
+}
+h1 {
+	font-size: 18px;
+	color: #000;
+}
+h6 {
+	font-size:16px;
+	color:#000;
+}
+#haupt {
+	position:relative;
+	height:768px;
+	margin:auto;
+	width:1024px;
+	border:3px;
+	border-style:solid;
+	border-color:#BC0002;
+	background-color:#FFF;
+}
+#navi {
+	position:absolute;
+	top:170px;
+	width:100%;
+	background-image:url(images/background_navi.png);
+	z-index:1;
+	height:30px;
+}
+#navi_unten {
+	position:absolute;
+	bottom:0px;
+	width:150px;
+	right:200px;
+}
+#haupttext {
+	position:absolute;
+	top:200px;
+	left:0px;
+	width:100%;
+	height:540px;
+	overflow:auto;
+	background-color:#FFF;
+}
+#bilder_unter {
+	position:absolute;
+	top:135px;
+	left:85px;
+	background-color:#FFF;
+}
+#img_map {
+	position:absolute;
+	top:100px;
+	left:100px;
+	border:0px;
+	border-color:#FFF;
+}
+
+#text {
+	position:absolute; 
+	top:50px; 
+	right:50px; 
+	width:470px;
+	background-color:#FFF;
+}
+#text_tradition {
+	position:absolute; 
+	top:50px; 
+	right:50px; 
+	width:650px;
+	background-color:#FFF;
+}
+
+#text_map {
+	position:absolute; 
+	top:130px; 
+	right:50px; 
+	width:400px;
+	background-color:#FFF;
+}
+
+#text_home {
+	position:absolute; 
+	top:50px; 
+	right:50px; 
+	width:470px;
+	background-color:#FFF;
+}
+
+#text_wir {
+	position:absolute; 
+	top:50px; 
+	right:50px; 
+	width:320px;
+	background-color:#FFF;
+}
+#text_moderne {
+	position:absolute; 
+	top:50px; 
+	right:50px; 
+	width:250px;
+	background-color:#FFF;
+}
+
+
+#tortengalerie {
+	position:absolute;
+	top:10px;
+	width:100%;
+}
+
+#banner {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:200px;
+}
+#banner_img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:200px;
+}
+
+#logo {
+	position:absolute;
+	top:25px;
+	left:15px;
+	z-index:1;
+}
+#ecke_li {
+	position:absolute;
+	top:200px;
+	left:0px;
+	z-index:3;
+}
+#ecke_re {
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	float:left;
+}
+.table {
+	background-color:#FFF;
+	border:0px;
+	border-style:solid;
+	border-color:#FFF;
+	background-image:url(images/img_br_kl.jpg); 
+	background-repeat:repeat;
+}
